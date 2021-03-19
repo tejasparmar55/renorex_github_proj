@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="88a9774f-8192-4105-89d6-7614d311d86a"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="OpenBrowser"
+	namespace="mywebtest1">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<openwebsiterecorditem
+		args=""
+		browser="chrome"
+		clearcache="False"
+		clearcookies="False"
+		enabled="True"
+		incognito="False"
+		instrument="True"
+		killexisting="False"
+		maximized="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<url>
+				https://www.ranorex.com
+			</url>
+		</openwebsiterecorditem>
+	</recorditems>
+	<repository
+	id="6af020f3-8db0-48ac-adf9-f44fb3de18cd"
+	name="mywebtest1Repository"
+	relativepath="mywebtest1Repository.rxrep">
+		<codegen
+		classname="mywebtest1Repository"
+		namespace="mywebtest1">
+		</codegen>
+		<rootfolder
+		id="909703af-54bd-403c-a5b6-5e3976e14748"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		OpenBrowser.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

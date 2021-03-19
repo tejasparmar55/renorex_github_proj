@@ -1,0 +1,165 @@
+﻿<repository
+id="6af020f3-8db0-48ac-adf9-f44fb3de18cd"
+name="mywebtest1Repository">
+	<codegen
+	classname="mywebtest1Repository"
+	namespace="mywebtest1">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="909703af-54bd-403c-a5b6-5e3976e14748"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="bd61cb0b-5018-49a1-96b0-539f1435bcfb"
+		isrooted="True"
+		name="ApplicationUnderTest"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="b6b5a860-a108-4e20-be14-a2ff27d0f6d5"
+			name="RequestADemo"
+			refimgid="c1061f73-afe0-4be6-bccd-cbf36ab9d559"
+			refpath="/dom[@domain='www.ranorex.com']//div[#'et_builder_outer_content']/div/div[1]/div/div/div[2]/a[@innertext='Request a demo']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='www.ranorex.com']//div[#'et_builder_outer_content']/div/div[1]/div/div/div[2]/a[@innertext='Request a demo']
+			</item>
+			<basepath>
+				/dom[@domain='www.ranorex.com']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="e09ad081-70a8-451c-b06c-1d4c04b9757c"
+		isrooted="True"
+		name="NewTabGoogleChrome"
+		refpath="/form[@title='New Tab - Google Chrome']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="31c169a6-b289-41dc-b765-e116133c02e2"
+			name="AddressAndSearchBar"
+			refimgid="c37f5b96-bdea-45a6-89cc-fafbb5f46bc9"
+			refpath="/form[@title='New Tab - Google Chrome']/container/container/container[2]/container[1]/toolbar[1]/container[@accessiblerole='Grouping']/text[@accessiblename='Address and search bar']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@title='New Tab - Google Chrome']/container[@accessiblename='New Tab - Google Chrome']/container[@accessiblename='Google Chrome']/container[2]/container[1]/toolbar[1]/?/?/text[@accessiblename='Address and search bar']
+			</item>
+			<basepath>
+				/form[@title='New Tab - Google Chrome']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAJMSURBVDhPrZJLTxNhFIbnD8CmgqDiJbKQlUsT
+pbTTaaWt9EYVlaGUFht0ISsT117QqGw06o5eMYArSNSNxHgtKIylBMXYmWkxxii40WkkKp3X+YYZ
+sVFX+ibP7nvec07yUf89H1l7pdjmOC+22WdFv0MSfM2S6LNmea+tb8m9u0J79ufkD7ns+bZ9bwR/
+M4TWvRB8NggeBrybBt9iBu+iFwSXxaY9Lw/nsTLCAYcs7rdDLSCy16oUWFYLXKTEBN5hlHl7I6Np
+q6m/c7yyr9f7dk4R1AJteo71loQT/rzQY+KFSBMvRsw5MWIkpMvOqR86em7XtcDKXece5DxKSfgg
+hAcTuPlEwvBjCfmXaSze8uDz7UYsj5vw/X4TSpPMWU2nqK03ume3DUZw5KQHzxxGiA8n0Hm9CFd/
+ES2XimCvFvEuPwk8t2kwkDk6o+lKwWC3tCXVjR0DIQwHWjCiTNVl58VVhh5JKGVaFdkKcKTAImk6
+RdUlQ9LmVBgEtj+oFvwqOy7oBX5VBmchG6wVbEp2ZTcmukCoS4Tk9PzrJbK2Lh++UsSr/PwHfbpW
+sHZCbSp4ZkMiCEKtws7hXoy9yKhTCaNZDu+n2K+6DI5GiaNPaTpFGUbDFTWx4EJNvBOE9fGASsPQ
+MTQke3B5zPtzsipPWwryvLv8V1YnAtbqeEBWAKEq1oF1MRbbB9qxPGWTdVnmzLI8Q1s0rTyGGMtU
+RQMFQ5SFzvg957e1yebCX2U95BxDvOO0Ido+Q4+0L355ynxamTZnyM2/rf3voagf2nKwO/rr1QsA
+AAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="5d847b62-4667-41bb-9cda-fdccb1345768"
+		isrooted="True"
+		name="NewTab"
+		refimgid="248e63fb-b1d8-4b00-8b40-c3f04d29cef6"
+		refpath="/dom[@domain='newtab']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<basepath>
+				/dom[@domain='newtab']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="dcd64ea6-dd3d-4604-a3e7-bad00f77b4a9"
+		isrooted="True"
+		name="AccenturePortalGoogleChrome"
+		refpath="/form[@title='Accenture Portal - Google Chrome']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="b089f70e-91fa-41ac-bc61-e5d378a42e31"
+			name="NewTab"
+			refimgid="84a15683-f058-4313-9474-53f253338aaa"
+			refpath="/form[@title='Accenture Portal - Google Chrome']/container[@accessiblename='Accenture Portal - Google Chrome']/container[@accessiblename='Google Chrome']/container[2]/container[1]/tabpagelist[@accessiblerole='PageTabList']/button[@accessiblename='New Tab']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@title&gt;'Accenture Portal - Google']/container[@accessiblename&gt;'Accenture Portal - Google']/container[@accessiblename='Google Chrome']//button[@accessiblename='New Tab']
+			</item>
+			<basepath>
+				/form[@title&gt;'Accenture Portal - Google']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAJMSURBVDhPrZJLTxNhFIbnD8CmgqDiJbKQlUsT
+pbTTaaWt9EYVlaGUFht0ISsT117QqGw06o5eMYArSNSNxHgtKIylBMXYmWkxxii40WkkKp3X+YYZ
+sVFX+ibP7nvec07yUf89H1l7pdjmOC+22WdFv0MSfM2S6LNmea+tb8m9u0J79ufkD7ns+bZ9bwR/
+M4TWvRB8NggeBrybBt9iBu+iFwSXxaY9Lw/nsTLCAYcs7rdDLSCy16oUWFYLXKTEBN5hlHl7I6Np
+q6m/c7yyr9f7dk4R1AJteo71loQT/rzQY+KFSBMvRsw5MWIkpMvOqR86em7XtcDKXece5DxKSfgg
+hAcTuPlEwvBjCfmXaSze8uDz7UYsj5vw/X4TSpPMWU2nqK03ume3DUZw5KQHzxxGiA8n0Hm9CFd/
+ES2XimCvFvEuPwk8t2kwkDk6o+lKwWC3tCXVjR0DIQwHWjCiTNVl58VVhh5JKGVaFdkKcKTAImk6
+RdUlQ9LmVBgEtj+oFvwqOy7oBX5VBmchG6wVbEp2ZTcmukCoS4Tk9PzrJbK2Lh++UsSr/PwHfbpW
+sHZCbSp4ZkMiCEKtws7hXoy9yKhTCaNZDu+n2K+6DI5GiaNPaTpFGUbDFTWx4EJNvBOE9fGASsPQ
+MTQke3B5zPtzsipPWwryvLv8V1YnAtbqeEBWAKEq1oF1MRbbB9qxPGWTdVnmzLI8Q1s0rTyGGMtU
+RQMFQ5SFzvg957e1yebCX2U95BxDvOO0Ido+Q4+0L355ynxamTZnyM2/rf3voagf2nKwO/rr1QsA
+AAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>
